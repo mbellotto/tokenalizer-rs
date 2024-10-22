@@ -16,6 +16,6 @@ fn main() {
     let person: Person = serde_json::from_str(&json_str)
         .expect("Failed to deserialize JSON.");
 
-    // Print the deserialized object
+    // Print the deserialized object 
     println!("{:?}", person);
 }
